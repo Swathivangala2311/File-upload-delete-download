@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #fafafa;
+}
+
+button {
+  background: #0066ff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #004bcc;
+}
+
+.message {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #198754;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  background: #eef2ff;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.file-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #0066ff;
+  font-weight: bold;
+}
+
+.actions a:hover {
+  text-decoration: underline;
+}
+
+.delete-btn {
+  background: #ff4444;
+  padding: 6px 10px;
+}
+
+.delete-btn:hover {
+  background: #c30000;
+}
